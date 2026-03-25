@@ -1,0 +1,11 @@
+[project]
+name = "2-work"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "dotenv>=0.9.9",
+    "flask>=3.1.2",
+    "pypdf>=6.9.0",
+    "reportlab>=4.4.4",
+    "requests>=2.32.5",
+]

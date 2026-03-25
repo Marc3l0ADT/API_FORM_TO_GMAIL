@@ -1,0 +1,8 @@
+tablas/
+Images/
+.venv
+.env
+__pycache__/
+*.pyc
+*.pdf
+json.json
