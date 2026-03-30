@@ -1,0 +1,194 @@
+{
+  "Tipo de Interviniente": {
+    "Solicitante": "Check Box202",
+    "Garante": "Check Box203",
+    "Codeudor": "Check Box204"
+  },
+  "Tipo de Credito (categoria)": {
+    "Microempresa": "Check Box205",
+    "Consumo": "Check Box206",
+    "PYMES": "Check Box207"
+  },
+  "Tipo de Credito (modalidad)": {
+    "Original": "Check Box210",
+    "Novacion": "Check Box211",
+    "Refinanciamiento": "Check Box212",
+    "Reestructuracion": "Check Box213"
+  },
+  "Destino de la Inversion": {
+    "Activo Fijo": "Check Box208",
+    "Capital de Trabajo": "Check Box209"
+  },
+  "Forma de Pago - Activo Fijo": {
+    "Mensual": "Check Box214",
+    "Bimensual": "Check Box215",
+    "Trimestral": "Check Box216",
+    "Semestral": "Check Box217",
+    "Anual": "Check Box218",
+    "Al vencimiento": "Check Box219"
+  },
+  "Forma de Pago - Capital de Trabajo": {
+    "Mensual": "Check Box220",
+    "Bimensual": "Check Box221",
+    "Trimestral": "Check Box222",
+    "Semestral": "Check Box223",
+    "Anual": "Check Box224",
+    "Al vencimiento": "Check Box225"
+  },
+  "Tipo de Garantia": {
+    "Real (Hipoteca, prenda, certificados de inversion, etc.)": "Check Box226",
+    "Firmas (Quirografaria, personal)": "Check Box228",
+    "Fondo Nacional de Garantia": "Check Box227"
+  },
+  "Tipo de Proyecto": {
+    "Nuevo": "Check Box229",
+    "Ampliacion": "Check Box230"
+  },
+  "Nivel de Instruccion": {
+    "Sin estudios": "Check Box237",
+    "Primaria": "Check Box238",
+    "Secundaria": "Check Box239",
+    "Formacion Tecnica": "Check Box240",
+    "Universitaria": "Check Box241",
+    "Postgrado": "Check Box242"
+  },
+  "Estado Civil": {
+    "Soltero": "Check Box5",
+    "Casado": "Check Box6",
+    "Viudo": "Check Box7",
+    "Divorciado": "Check Box8",
+    "Union de hecho": "Check Box9"
+  },
+  "Separacion de Bienes": {
+    "SI": "Check Box20",
+    "NO": "Check Box21"
+  },
+  "Jefe de Hogar": {
+    "SI": "Check Box22",
+    "NO": "Check Box23"
+  },
+  "PEP del Solicitante (en Datos Personales)": {
+    "SI": "Check Box21",
+    "NO": "Check Box23"
+  },
+  "Genero": {
+    "Femenino": "Check Box235",
+    "Masculino": "Check Box236"
+  },
+  "PEP (fila Genero)": {
+    "SI": "Check Box3",
+    "NO": "Check Box4"
+  },
+  "Es socio de alguna Asociacion?": {
+    "SI": "Check Box3",
+    "NO": "Check Box4"
+  },
+  "Etnia": {
+    "Mestizo": "Check Box10",
+    "Indigena": "Check Box11",
+    "Afrodescendiente": "Check Box13",
+    "Montubio": "Check Box12",
+    "Blanco": "Check Box14",
+    "Otro": "Check Box15"
+  },
+  "Es migrante retornado": {
+    "SI": "Check Box16",
+    "NO": "Check Box17"
+  },
+  "Es sustituto de una persona con discapacidad": {
+    "SI": "Check Box18",
+    "NO": "Check Box19"
+  },
+  "Pertenece a algun grupo prioritario": {
+    "Migrante": "Check Box24",
+    "Discapacidad": "Check Box25",
+    "Artesano": "Check Box26",
+    "Jovenes": "Check Box27",
+    "Mujeres violentadas": "Check Box28"
+  },
+  "Genero del Conyuge": {
+    "Femenino": "Check Box29",
+    "Masculino": "Check Box30"
+  },
+  "Nivel de Instruccion (conyugue)": {
+    "Sin estudios": "Check Box31",
+    "Primaria": "Check Box32",
+    "Secundaria": "Check Box33",
+    "Formacion Tecnica": "Check Box34",
+    "Universitaria": "Check Box35",
+    "Postgrado": "Check Box36"
+  },
+  "Sector": {
+    "Urbano": "Check Box33",
+    "Rural": "Check Box34"
+  },
+  "Tipo de Vivienda": {
+    "Propia sin hipoteca": "Check Box29",
+    "Propia con hipoteca": "Check Box30",
+    "Arrendada": "Check Box31",
+    "Vive con Familiares": "Check Box32"
+  },
+  "Actividad Economica del Solicitante / Garante": {
+    "Empleado dependiente": "Check Box244",
+    "Independiente": "Check Box245",
+    "Actividad Domesticas": "Check Box246",
+    "No trabaja": "Check Box247"
+  },
+  "Actividad Economica del Conyuge": {
+    "Empleado dependiente": "Check Box248",
+    "Independiente": "Check Box249",
+    "Labores domesticas": "Check Box250",
+    "No trabaja": "Check Box251"
+  },
+  "Tipo de Empresa - Solicitante (Actividad Dependiente)": {
+    "Publica": "Check Box252",
+    "Privada": "Check Box253",
+    "Mixta": "Check Box254"
+  },
+  "Tipo de Empresa - Conyuge (Actividad Dependiente)": {
+    "Publica": "Check Box255",
+    "Privada": "Check Box256",
+    "Mixta": "Check Box257"
+  },
+  "Obligado a llevar contabilidad - Solicitante": {
+    "SI": "Check Box239",
+    "NO": "Check Box240"
+  },
+  "Obligado a llevar contabilidad - Conyuge": {
+    "SI": "Check Box241",
+    "NO": "Check Box242"
+  },
+  "Tipo de cuenta 1 (SOLICITANTE/GARANTE)": {
+    "Ahorros": "Check Box258",
+    "Corriente": "Check Box259"
+  },
+  "Tipo de cuenta 2 (SOLICITANTE/GARANTE)": {
+    "Ahorros": "Check Box260",
+    "Corriente": "Check Box261"
+  },
+  "Tiene inversiones en alguna institucion financiera (SOLICITANTE/GARANTE)": {
+    "Si": "Check Box262",
+    "No": "Check Box263"
+  },
+  "Tipo de avaluo autorizado": {
+    "Hipotecaria": "Check Box264",
+    "Prendaria": "Check Box265",
+    "Reavaluo": "Check Box266"
+  },
+  "Vinculacion con Directorio / Gerencia de BanEcuador": {
+    "SI": "Check Box267",
+    "NO": "Check Box268"
+  },
+  "Parentesco con administradores de BanEcuador": {
+    "SI": "Check Box269",
+    "NO": "Check Box270"
+  },
+  "Parentesco con funcionarios aprobadores de credito": {
+    "SI": "Check Box271",
+    "NO": "Check Box272"
+  },
+  "Persona Expuesta Politicamente? (PEP)": {
+    "SI": "Check Box1",
+    "NO": "Check Box2 "
+  }
+}

@@ -87,15 +87,18 @@ if __name__ == "__main__":
     import pdfGen
     import json
     
-    with open('temp.json', 'r') as f:
-        resultados = json.load(f)
+    with open('json.json', 'r') as f:
+        resultados = json.load(f)["data"]
     
-    pdf_base64 = pdfGen.make_pdf(resultados)
+    pdf_base64 = pdfGen.make_pdf('pdfBase.pdf', resultados, 'json_map_options.json')
 
     
     enviar_correo(
         asunto="Resultados de la Encuesta",
         direccion_destino='moreiraibarramarcelo@gmail.com',
         body_text="Hola,\n\nAdjunto encontrarás el PDF con los resultados de la encuesta.\n\nSaludos.",
-        pdf_base64= pdf_base64
+        pdf_base64= pdf_base64.decode('utf-8')
     )
+
+    with open('output.pdf', 'wb') as f:
+        f.write(base64.b64decode(pdf_base64))

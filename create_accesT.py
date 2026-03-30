@@ -4,9 +4,10 @@ from dotenv import load_dotenv
 load_dotenv()
 
 refresh_token = os.getenv("REFRESH_TOKEN")
-invalid_grant = Exception("invalid_grant: El refresh token es inválido o ha sido revocado.")
 CLIENT_ID = os.getenv('CLIENT_ID')
 SECRET = os.getenv('SECRET')
+
+invalid_grant = Exception("invalid_grant: El refresh token es inválido o ha sido revocado.")
 
 class accessToken:
     def __init__(self):
