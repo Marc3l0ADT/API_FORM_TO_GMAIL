@@ -74,7 +74,6 @@ def make_pdf(pdf_path_input: str, valores: dict, map_options_path: str) -> bytes
         tipo = info.get("type", "no existe")
 
         if tipo == "no existe":
-            print(f"'tipo' de la pregunta '{pregunta}' no existe.")
             continue
         
         
@@ -84,7 +83,6 @@ def make_pdf(pdf_path_input: str, valores: dict, map_options_path: str) -> bytes
         elif tipo == "opcion":
             
             campo_name = get_campo_opcion(pregunta, valor, map_options_path)
-            print(f'valor: {pregunta}:{valor}, campo_name: {campo_name}, {_checked_value(fields[campo_name])}')
             actualizaciones[campo_name] = _checked_value(fields[campo_name])
         else:
             raise Exception(f"Tipo de campo no reconocido: {tipo}")

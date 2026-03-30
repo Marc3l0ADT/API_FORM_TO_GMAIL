@@ -3,7 +3,7 @@ import requests
 import os
 from datetime import datetime
 from dotenv import load_dotenv
-import create_accesT 
+from create_accesT import accessTokenGen
 
 load_dotenv()
 
@@ -11,8 +11,7 @@ load_dotenv()
 # CONFIGURACIÓN
 # ==============================
 
-REFRESH_TOKEN = os.getenv("REFRESH_TOKEN")
-ACCESS_TOKEN = create_accesT.accessToken()  # Obtener un nuevo access token usando el refresh token
+REFRESH_TOKEN = os.getenv("REFRESH_TOKEN")  # Obtener un nuevo access token usando el refresh token
 FROM_EMAIL = os.getenv("CORREO")
 TO_EMAIL = os.getenv("CORREO_DESTINO")
 
@@ -21,7 +20,7 @@ TO_EMAIL = os.getenv("CORREO_DESTINO")
 # ==============================
 
 
-def enviar_correo(asunto, direccion_destino, body_text, pdf_base64):
+def enviar_correo(asunto, direccion_destino, body_text, pdf_base64, gmailTokenGen: accessTokenGen = None):
     # ==============================
     # CREAR MIME MANUALMENTE
     # ==============================
@@ -65,7 +64,7 @@ Content-Disposition: attachment; filename="documento.pdf"
     url = "https://gmail.googleapis.com/gmail/v1/users/me/messages/send"
 
     headers = {
-        "Authorization": f"Bearer {ACCESS_TOKEN.get_access()}",
+        "Authorization": f"Bearer {gmailTokenGen.get_access()}",
         "Content-Type": "application/json"
         }
 
